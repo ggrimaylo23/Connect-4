@@ -8,4 +8,5 @@
  To run depth-limited minimax against a human, you would type "python connect4.py c h 8 9 --depth 4"
  To run alpha-beta pruning minimax against a human, you would type "python connect4.py c 5 6 --prune"
  Note: Normal minimax will not run on a 6x7 board or larger, so you should run it on smaller boards. 
+ connect4.py houses the information for the class for a connect4 game object. agents.py has the information for all the possible agents that you can play with. test_boards.py is just for the sake of testing.
  
